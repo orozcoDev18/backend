@@ -4,4 +4,6 @@ export class requestUserDto {
   firstName?: string;
 
   lastName?: string;
+
+  password: string;
 }

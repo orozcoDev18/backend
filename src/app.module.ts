@@ -19,6 +19,7 @@ import { ENTITIES } from './domain';
     TypeOrmModule.forFeature([...ENTITIES]),
   ],
   providers: [...SERVICES],
+  exports: [...SERVICES],
   controllers: [...CONTROLLERS],
 })
 export class AppModule {}
